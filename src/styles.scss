@@ -1,0 +1,140 @@
+// CSS RESET
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+}
+
+footer, header, nav, section, main{
+    display: block;
+}
+
+body{
+    line-height: 1;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+blockquote, q{
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after{
+    content: '';
+    content: none;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input{
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+// FONTS
+
+@font-face {
+    font-family: 'DaxlinePro';
+    src: url('../src/resources/fonts/DaxlinePro-Light.eot');
+    src: local('../src/resources/fonts/DaxlinePro-Light'),
+        url('../src/resources/fonts/DaxlinePro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../src/resources/fonts/DaxlinePro-Light.woff') format('woff'),
+        url('../src/resources/fonts/DaxlinePro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DaxlinePro';
+    src: url('../src/resources/fonts/DaxlinePro-ExtraBold.eot');
+    src: local('../src/resources/fonts/DaxlinePro-ExtraBold'),
+        url('../src/resources/fonts/DaxlinePro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../src/resources/fonts/DaxlinePro-ExtraBold.woff') format('woff'),
+        url('../src/resources/fonts/DaxlinePro-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DaxlinePro';
+    src: url('../src/resources/fonts/DaxlinePro-Bold.eot');
+    src: local('../src/resources/fonts/DaxlinePro-Bold'),
+        url('../src/resources/fonts/DaxlinePro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../src/resources/fonts/DaxlinePro-Bold.woff') format('woff'),
+        url('../src/resources/fonts/DaxlinePro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DaxlinePro';
+    src: url('../src/resources/fonts/DaxlinePro-Medium.eot');
+    src: local('../src/resources/fonts/DaxlinePro-Medium'),
+        url('../src/resources/fonts/DaxlinePro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../src/resources/fonts/DaxlinePro-Medium.woff') format('woff'),
+        url('../src/resources/fonts/DaxlinePro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DaxlinePro';
+    src: url('../src/resources/fonts/DaxlinePro-Thin.eot');
+    src: local('../src/resources/fonts/DaxlinePro-Thin'),
+        url('../src/resources/fonts/DaxlinePro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../src/resources/fonts/DaxlinePro-Thin.woff') format('woff'),
+        url('../src/resources/fonts/DaxlinePro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DaxlinePro';
+    src: url('../src/resources/fonts/DaxlinePro-Black.eot');
+    src: local('../src/resources/fonts/DaxlinePro-Black'),
+        url('../src/resources/fonts/DaxlinePro-Black.eot?#iefix') format('embedded-opentype'),
+        url('../src/resources/fonts/DaxlinePro-Black.woff') format('woff'),
+        url('../src/resources/fonts/DaxlinePro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DaxlinePro';
+    src: url('../src/resources/fonts/DaxlinePro-Regular.eot');
+    src: local('../src/resources/fonts/DaxlinePro-Regular'),
+        url('../src/resources/fonts/DaxlinePro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../src/resources/fonts/DaxlinePro-Regular.woff') format('woff'),
+        url('../src/resources/fonts/DaxlinePro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+// GLOBAL CSS
+
+body {
+    background-color: #efecef;
+}
+
+.container {
+    max-width : 80%;
+    margin: 3em auto;
+}

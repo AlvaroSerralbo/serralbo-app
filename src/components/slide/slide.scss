@@ -1,0 +1,36 @@
+.slide {
+    font-family: 'DaxlinePro';
+    padding: 1.5em 1em 1em;
+    overflow: hidden;
+    cursor: pointer;
+
+    &__header{
+
+        position: relative;
+        
+        &__title {
+            font-size: 1.225em;
+            font-weight: 700;
+            padding-bottom: 10px;
+        }
+
+        img {
+            width: 35%;
+            position: absolute;
+            right: -2em;
+            top: -2.75em;
+        }
+    }
+
+    &__prize {
+        color: #535353;
+        font-size: 1.75em;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+
+    &__next {
+        color: #a0a0a0;
+    }
+    
+}
