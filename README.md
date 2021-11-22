@@ -1,4 +1,6 @@
-This is what i can achieved for the lottoland challenge, got stuck when displaying the results in the table and couldn't handle the errors.
+This is what i can achieved for the lottoland challenge, got stuck when displaying the results in the table either understood pretty well what to show and couldn't handle the errors.
+
+But it is what it is :D
 
 I had to use CORS-Anywhere since it didn't let me call the API locally.
 
@@ -11,6 +13,8 @@ that is placed in three files which are
 /src/helpers/getLotteryTable.js
 
 For the rest, run `npm start` and it should work.
+
+
 
 # Getting Started with Create React App
 
