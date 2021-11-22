@@ -1,3 +1,17 @@
+This is what i can achieved for the lottoland challenge, got stuck when displaying the results in the table and couldn't handle the errors.
+
+I had to use CORS-Anywhere since it didn't let me call the API locally.
+
+In case you don't need it, you just need to remove the string "https://protected-sea-30988.herokuapp.com/" in the const url
+
+that is placed in three files which are
+
+/src/helpers/getLotteries.js
+/src/helpers/getLotteriesDates.js
+/src/helpers/getLotteryTable.js
+
+For the rest, run `npm start` and it should work.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
